@@ -20,8 +20,7 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="date">Effective date: March 22, 2026</p>
-
+        <p class="date">Effective date: April 15, 2026</p>
         <p>Mane ("we", "our", "the app") is committed to protecting your privacy. This policy explains what data we collect, how we use it, and your rights.</p>
 
         <h2>Data We Collect</h2>
@@ -29,10 +28,21 @@
         <p><strong>On-device data.</strong> Your preferences, style history, and profile information are stored locally on your device using Apple's SwiftData framework. This data never leaves your device.</p>
         <p><strong>Subscription data.</strong> If you subscribe to Mane Pro, your purchase is processed entirely by Apple through the App Store. We do not collect or store your payment information.</p>
 
+        <h2>Face Data</h2>
+        <p>Mane processes photos that contain your face in order to generate hairstyle previews. We take the privacy of your face data seriously. The following describes exactly how your face data is handled:</p>
+        <ul>
+            <li><strong>What face data is collected:</strong> When you use the hairstyle generation feature, the photo you provide (which contains your face) is transmitted to fal.ai for AI processing. No other biometric or facial recognition data is extracted, stored, or created by Mane.</li>
+            <li><strong>Purpose:</strong> Your face photo is used solely to generate a hairstyle transformation preview. It is not used for facial recognition, identification, advertising, or any other purpose.</li>
+            <li><strong>Mane does not retain face data:</strong> Your face photo is not stored on any Mane-owned server at any time. The photo is transmitted directly to fal.ai for processing and is not kept by Mane after the result is delivered to your device.</li>
+            <li><strong>fal.ai does not retain face data:</strong> fal.ai processes the photo in real time to generate the hairstyle preview and does not store your face photo or any derived face data after processing is complete. The photo is deleted from fal.ai's servers immediately after the transformation result is returned. For more details, refer to <a href="https://fal.ai/privacy">fal.ai's privacy policy</a>.</li>
+            <li><strong>No sharing with other third parties:</strong> Your face data is shared only with fal.ai for the sole purpose of generating hairstyle previews. We do not share, sell, or transmit your face data to any other third party.</li>
+            <li><strong>User consent:</strong> Before your photo is sent to fal.ai for the first time, the app will ask for your explicit permission. You may decline, in which case no photo data will be transmitted.</li>
+        </ul>
+
         <h2>Third-Party Services</h2>
         <p>We use the following third-party service:</p>
         <ul>
-            <li><strong>fal.ai</strong> — AI image processing. Photos are sent to fal.ai's servers to generate hairstyle transformations. Please refer to <a href="https://fal.ai/privacy">fal.ai's privacy policy</a> for details on their data handling practices.</li>
+            <li><strong>fal.ai</strong> — AI image processing. Photos are sent to fal.ai's servers to generate hairstyle transformations. fal.ai processes photos in real time and does not store your photos or face data after processing. Please refer to <a href="https://fal.ai/privacy">fal.ai's privacy policy</a> for full details on their data handling practices.</li>
         </ul>
 
         <h2>Data We Do Not Collect</h2>
@@ -41,10 +51,11 @@
             <li>We do not use analytics or tracking SDKs</li>
             <li>We do not serve advertisements</li>
             <li>We do not sell or share personal data with third parties</li>
+            <li>We do not perform facial recognition or create biometric profiles</li>
         </ul>
 
         <h2>Data Retention</h2>
-        <p>Photos sent for processing are not retained after the transformation is generated. On-device data persists until you delete the app.</p>
+        <p>Photos sent for AI processing are not retained by Mane or fal.ai after the transformation is generated. No face data is stored at any time by either Mane or fal.ai. On-device data (preferences, style history) persists locally until you delete the app.</p>
 
         <h2>Children's Privacy</h2>
         <p>Mane is not directed at children under 13. We do not knowingly collect data from children under 13.</p>
